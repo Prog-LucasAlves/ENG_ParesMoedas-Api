@@ -1,11 +1,11 @@
-[project]
+[tool.project]
 name = "eng-paresmoedas-api"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "Lucas Alves",email = "lucasalves_taz@hotmail.com"}
-]
+authors = ["Lucas Alves <lucasalves_taz@hotmail.com>"]
 readme = "README.md"
+
+[tool.poetry.dependencies]
 requires-python = ">=3.11,<4.0"
 dependencies = [
     "flask (>=3.1.0,<4.0.0)",
